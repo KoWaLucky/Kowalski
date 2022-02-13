@@ -1,0 +1,97 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "size": "small",
+                  "style": "person"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Мария Гостева",
+                  "weight": "bolder",
+                  "wrap": true
+                },
+                {
+                  "type": "TextBlock",
+                  "spacing": "none",
+                  "text": "Руководитель программ по управлению персоналом. Практика HR-Решений",
+ 
+                  "isSubtle": true,
+                  "wrap": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Эту информацию можно получить автоматически, но чуть позже. Сейчас о количестве дней можно узнать, написав Гостевой Марии mgosteva@smatr-ts.ru ",
+          "wrap": true
+        },
+        {
+          "type": "FactSet",
+          "facts": [
+            {
+              "title": "Руководитель:",
+              "value": "Побединская Татьяна"
+            },
+            {
+              "title": "Почта:",
+              "value": "mgosteva@smart-ts.ru"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.ShowCard",
+      "title": "Комментарий",
+      "card": {
+        "type": "AdaptiveCard",
+        "body": [
+          {
+            "type": "Input.Text",
+            "id": "comment",
+            "isMultiline": true,
+            "placeholder": "Введите комментарий"
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.Execute",
+            "title": "На главную",
+            "verb": "hello",
+            "fallback": "Action.Submit"
+          }
+        ]
+      }
+    }
+  ]
+}

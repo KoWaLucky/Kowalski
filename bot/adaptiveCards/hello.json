@@ -1,0 +1,104 @@
+
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": "Приветствую, какой вопрос вас интересует?"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Выберите категорию, которая вас интересует.",
+      "wrap": true
+    }
+  ],
+
+  "actions": [
+    {
+      "type": "Action.Execute",
+      "title": "О работе",
+      "verb": "event",
+      "fallback": "Action.Submit"
+    },
+
+    {
+      "type": "Action.Execute",
+      "title": "Отпуск",
+      "verb": "event2",
+      "fallback": "Action.Submit"
+    },
+
+    {
+      "type": "Action.Execute",
+      "title": "Рабочее место",
+      "verb": "event3",
+      "fallback": "Action.Submit"
+    },
+
+    {
+      "type": "Action.Execute",
+      "title": "Сотрудники",
+      "verb": "event4",
+      "fallback": "Action.Submit"
+    },
+    {
+      "type": "Action.Execute",
+      "title": "Дни рождения",
+      "verb": "event5",
+      "fallback": "Action.Submit"
+    },
+
+    {
+      "type": "Action.Execute",
+      "title": "СТС",
+      "verb": "event6",
+      "fallback": "Action.Submit"
+    },
+    {
+      "type": "Action.Execute",
+      "title": "Доступы",
+      "verb": "logos",
+      "fallback": "Action.Submit"
+    },
+
+    {
+      "type": "Action.Execute",
+      "title": "ДМС",
+      "verb": "vmi",
+      "fallback": "Action.Submit"
+    },
+
+    {
+      "type": "Action.Execute",
+      "title": "Обучение",
+      "verb": "training",
+      "fallback": "Action.Submit"
+    },
+
+    {
+      "type": "Action.Execute",
+      "title": "Командировка",
+      "verb": "assignment",
+      "fallback": "Action.Submit"
+    },
+
+    {
+      "type": "Action.Execute",
+      "title": "Больничный",
+      "verb": "hospital",
+      "fallback": "Action.Submit"
+    }
+
+
+
+   
+
+  ],
+
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+
+  "version": "1.4"
+
+}

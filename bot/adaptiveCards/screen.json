@@ -1,0 +1,26 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+   
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+
+          "value": "Чтобы получить монитор, необходимо сделать Служебную записку и направить ее на согласование своему руководителю."
+        }
+      ]
+    }
+  ],
+  "actions": [
+   
+    {
+      "type": "Action.Execute",
+      "title": "На главную",
+      "verb": "hello",
+      "fallback": "Action.Submit"
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.4"
+}

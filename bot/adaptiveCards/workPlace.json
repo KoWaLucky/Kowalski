@@ -1,0 +1,67 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": "Выберите интересующий вас вариант?"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Выберите категорию, которая вас интересует.",
+      "wrap": true
+    }
+  ],
+
+  "actions": [
+    {
+      "type": "Action.Execute",
+      "title": "Как получить компьютер для работы?",
+      "verb": "pc",
+      "fallback": "Action.Submit"
+    },
+
+    {
+      "type": "Action.Execute",
+      "title": "Сломался компьютер, кто закажет мастера по ремонту и где взять новый?",
+      "verb": "master",
+      "fallback": "Action.Submit"
+    },
+
+    {
+      "type": "Action.Execute",
+      "title": "Как получить дополнительный монитор?",
+      "verb": "screen",
+      "fallback": "Action.Submit"
+    },
+
+    {
+      "type": "Action.Execute",
+      "title": "К кому мне обратиться за помощью?",
+      "verb": "help",
+      "fallback": "Action.Submit"
+    },
+    {
+      "type": "Action.Execute",
+      "title": "Как получить пропуск?",
+      "verb": "pass",
+      "fallback": "Action.Submit"
+    },
+    {
+      "type": "Action.Execute",
+      "title": "Что мне нужно кроме компьютера, чтобы начать работу?",
+      "verb": "pcwork",
+      "fallback": "Action.Submit"
+    }
+
+   
+
+
+  ],
+
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+
+  "version": "1.4"
+
+}

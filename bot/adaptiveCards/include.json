@@ -1,0 +1,26 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+   
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+         
+          "value": "Поликлиническая помощь, вызов врача на дом, лабораторные и инструментальные исследования, вызов скорой помощи и вакцинация (для взрослых — только от гриппа). Более подробная информация указана в полисе, который тебе выдадут."
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Execute",
+      "title": "На главную",
+      "verb": "hello",
+      "fallback": "Action.Submit"
+    }
+
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.4"
+}

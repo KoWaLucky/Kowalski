@@ -1,0 +1,78 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": "Выберите интересующий вас вариант?"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Выберите категорию, которая вас интересует.",
+      "wrap": true
+    }
+  ],
+
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+
+      "title": "Jira",
+
+      "url": "https://jira.smart-ts.ru/secure/RapidBoard.jspa"
+
+    },
+
+    {
+
+      "type": "Action.OpenUrl",
+
+      "title": "Таймшит",
+
+      "url": "https://ts.smart-ts.ru/Ts/Index?reRead=1"
+
+    },
+
+    {
+
+      "type": "Action.OpenUrl",
+
+      "title": "Azure",
+
+      "url": "https://dev.azure.com/sts2021"
+
+    },
+
+    {
+
+      "type": "Action.OpenUrl",
+
+      "title": "Help Desk",
+
+      "url": "https://jira.smart-ts.ru/servicedesk/customer/portals"
+
+    },
+    {
+      "type": "Action.Execute",
+      "title": "Доступ в Axapta?",
+      "verb": "axapta",
+      "fallback": "Action.Submit"
+    },
+    {
+      "type": "Action.Execute",
+      "title": "Доступ в Qlik?",
+      "verb": "qlic",
+      "fallback": "Action.Submit"
+    }
+
+   
+
+
+  ],
+
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+
+  "version": "1.4"
+
+}

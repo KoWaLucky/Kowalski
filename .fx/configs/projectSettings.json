@@ -1,0 +1,23 @@
+{
+    "appName": "stshop",
+    "projectId": "e80c4582-3f04-4688-98e6-0c9dd50ce9b8",
+    "solutionSettings": {
+        "name": "fx-solution-azure",
+        "version": "1.0.0",
+        "hostType": "Azure",
+        "azureResources": [],
+        "capabilities": [
+            "Bot"
+        ],
+        "activeResourcePlugins": [
+            "fx-resource-identity",
+            "fx-resource-bot",
+            "fx-resource-aad-app-for-teams",
+            "fx-resource-local-debug",
+            "fx-resource-appstudio"
+        ]
+    },
+    "version": "2.1.0",
+    "isFromSample": false,
+    "programmingLanguage": "javascript"
+}

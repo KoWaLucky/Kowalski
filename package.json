@@ -1,0 +1,23 @@
+{
+    "name": "stshop",
+    "version": "0.0.1",
+    "description": "",
+    "author": "",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "install:bot": "cd bot && npm install",
+        "installAll": "npm run install:bot"
+    },
+    "devDependencies": {
+        "@microsoft/teamsfx-cli": "0.*"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "adaptivecards": "^2.10.0",
+        "axios": "^0.25.0",
+        "jwt-autorefresh": "^0.2.4",
+        "moment": "^2.29.1",
+        "qs": "^6.10.3",
+        "request": "^2.88.2"
+    }
+}

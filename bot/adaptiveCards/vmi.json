@@ -1,0 +1,56 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": "Выберите интересующий вас вариант?"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Выберите категорию, которая вас интересует.",
+      "wrap": true
+    }
+  ],
+
+  "actions": [
+    {
+      "type": "Action.Execute",
+      "title": "Как получить дмс?",
+      "verb": "dms",
+      "fallback": "Action.Submit"
+    },
+
+    {
+      "type": "Action.Execute",
+      "title": "Когда я смогу получить полис ДМС после оформления заявки?",
+      "verb": "documetns",
+      "fallback": "Action.Submit"
+    },
+
+    {
+      "type": "Action.Execute",
+      "title": "Когда мне положен ДМС?",
+      "verb": "mds",
+      "fallback": "Action.Submit"
+    },
+
+    {
+      "type": "Action.Execute",
+      "title": "Что входит в ДМС?",
+      "verb": "include",
+      "fallback": "Action.Submit"
+
+    }
+
+   
+
+
+  ],
+
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+
+  "version": "1.4"
+
+}

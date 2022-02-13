@@ -1,0 +1,68 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": "Выберите интересующий вас вариант?"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Выберите категорию, которая вас интересует.",
+      "wrap": true
+    }
+  ],
+
+  "actions": [
+
+    {
+      "type": "Action.Execute",
+      "title": "Как оформить и закрыть командировку?",
+      "verb": "mission",
+      "fallback": "Action.Submit"
+
+    },
+
+   
+
+    {
+      "type": "Action.Execute",
+      "title": "Кому направлять документы? ",
+      "verb": "direct",
+      "fallback": "Action.Submit"
+    },
+    {
+      "type": "Action.Execute",
+      "title": "Какие сроки закрытия командировки?",
+      "verb": "term",
+      "fallback": "Action.Submit"
+    },
+    {
+      "type": "Action.Execute",
+      "title": "Что делать, если даты командировки перенесли? ",
+      "verb": "transfer",
+      "fallback": "Action.Submit"
+    },
+    {
+      "type": "Action.Execute",
+      "title": "Что делать, если командировка отменена, а деньги уже по ней выплачены?",
+      "verb": "cancelled",
+      "fallback": "Action.Submit"
+    },
+    {
+      "type": "Action.Execute",
+      "title": "Как купить билеты и заказать гостиницу?",
+      "verb": "gsz",
+      "fallback": "Action.Submit"
+    }
+   
+
+
+  ],
+
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+
+  "version": "1.4"
+
+}

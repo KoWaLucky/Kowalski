@@ -1,0 +1,26 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+   
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+
+          "value": "Если компьютер был выдан компанией, то необходимо обратиться за решением вопроса к руководителю. Он подскажет к кому обратиться."
+        }
+      ]
+    }
+  ],
+  "actions": [
+   
+    {
+      "type": "Action.Execute",
+      "title": "На главную",
+      "verb": "hello",
+      "fallback": "Action.Submit"
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.4"
+}

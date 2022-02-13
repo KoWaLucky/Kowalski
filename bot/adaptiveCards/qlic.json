@@ -1,0 +1,26 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+   
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+
+          "value": "Подключение по рдп, адрес 10.1.6.14"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Execute",
+      "title": "На главную",
+      "verb": "hello",
+      "fallback": "Action.Submit"
+    }
+
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.4"
+}

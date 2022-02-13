@@ -1,0 +1,26 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+   
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+
+          "value": "Компания предоставляет оборудованный офис, необходимое оборудование для работы. Во всех офисах есть кофемашины, вода, чай."
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Execute",
+      "title": "На главную",
+      "verb": "hello",
+      "fallback": "Action.Submit"
+    }
+
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.4"
+}

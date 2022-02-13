@@ -1,0 +1,65 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": "Выберите интересующий вас вариант?"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Выберите категорию, которая вас интересует.",
+      "wrap": true
+    }
+  ],
+
+  "actions": [
+    {
+      "type": "Action.Execute",
+      "title": "Начало и окончание рабочего дня",
+      "verb": "time",
+      "fallback": "Action.Submit"
+    },
+
+    {
+      "type": "Action.Execute",
+      "title": "Режим работы и выходные",
+      "verb": "work",
+      "fallback": "Action.Submit"
+    },
+
+    {
+      "type": "Action.Execute",
+      "title": "Условия работы",
+      "verb": "condition",
+      "fallback": "Action.Submit"
+    },
+
+  
+    {
+      "type": "Action.Execute",
+      "title": "Когда обеденный перерыв?",
+      "verb": "dinner",
+      "fallback": "Action.Submit"
+    },
+
+    {
+      "type": "Action.Execute",
+      "title": "Почитать более подробно о том, чем занимается компания ",
+      "verb": "tutorial",
+      "fallback": "Action.Submit"
+    },
+    {
+      "type": "Action.Execute",
+      "title": "Какой режим работы в праздничные дни? ",
+      "verb": "przd",
+      "fallback": "Action.Submit"
+    }
+  ],
+
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+
+  "version": "1.4"
+
+}

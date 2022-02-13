@@ -1,0 +1,68 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": "Выберите интересующий вас вариант?"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Выберите категорию, которая вас интересует.",
+      "wrap": true
+    }
+  ],
+
+  "actions": [
+    {
+      "type": "Action.Execute",
+      "title": "Сколько у меня осталось дней отпуска?",
+      "verb": "holiday",
+      "fallback": "Action.Submit"
+    },
+
+    {
+      "type": "Action.Execute",
+      "title": "Как оформить заявление на отпуск?",
+      "verb": "statement",
+      "fallback": "Action.Submit"
+    },
+
+   
+
+    {
+      "type": "Action.Execute",
+      "title": "Какие документы нужны для отпуска?",
+      "verb": "record",
+      "fallback": "Action.Submit"
+    },
+    {
+      "type": "Action.Execute",
+      "title": "К кому обращаться на счет отпуска?",
+      "verb": "contact",
+      "fallback": "Action.Submit"
+    },
+    {
+      "type": "Action.Execute",
+      "title": "Когда я могу пойти первый раз в отпуск после выхода на работу?",
+      "verb": "otp",
+      "fallback": "Action.Submit"
+    },
+    {
+      "type": "Action.Execute",
+      "title": "Могу я взять отпуск за свой счет, длительность отпуска?",
+      "verb": "pto",
+      "fallback": "Action.Submit"
+    }
+
+   
+
+
+  ],
+
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+
+  "version": "1.4"
+
+}

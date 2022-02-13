@@ -1,0 +1,28 @@
+{
+  "type": "AdaptiveCard",
+  
+  "body": [
+   
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+
+          "value": "Для оформления пропуска в московский офис необходимо обратиться к Юлии Соколовой, для пропуска  в магнитогорский офисе с Валерии Баукиной, для пропуска в санкт-петербургский офис к Алексеевой Анастасии."
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Execute",
+      "title": "На главную",
+      "verb": "hello",
+      "fallback": "Action.Submit"
+    }
+ 
+
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.4"
+}

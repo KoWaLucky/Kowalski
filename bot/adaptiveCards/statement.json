@@ -1,0 +1,33 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+   
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+
+          "value": "Подробную информацию ты можешь найти по ссылке "
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+  
+      "title": "Ссылка.",
+  
+      "url": "https://teams.microsoft.com/l/channel/19%3a43afc53af5a34fc390579f98ce68188f%40thread.tacv2/%25D0%2597%25D0%25B0%25D1%258F%25D0%25B2%25D0%25BB%25D0%25B5%25D0%25BD%25D0%25B8%25D0%25B5%2520%25D0%25BD%25D0%25B0%2520%25D0%25BE%25D1%2582%25D0%25BF%25D1%2583%25D1%2581%25D0%25BA?groupId=c017f734-84a0-4075-ba74-7c136412e8f7&tenantId=7ce83bea-9f48-4720-966f-6abbbe073228"
+    },
+    {
+      "type": "Action.Execute",
+      "title": "На главную",
+      "verb": "hello",
+      "fallback": "Action.Submit"
+    }
+
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.4"
+}

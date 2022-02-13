@@ -1,0 +1,43 @@
+{
+    "solution": {
+        "provisionSucceeded": true,
+        "needCreateResourceGroup": false,
+        "resourceNameSuffix": "842009",
+        "resourceGroupName": "SpTokenApp20220127161813ResourceGroup",
+        "tenantId": "7ce83bea-9f48-4720-966f-6abbbe073228",
+        "subscriptionId": "cf6f45b2-c8d7-45d9-8296-b2f7be0ea733",
+        "subscriptionName": "Azure subscription 1",
+        "location": "southcentralus",
+        "teamsAppTenantId": "fcae5643-6183-4dcf-b1ab-156ab38738cb"
+    },
+    "fx-resource-identity": {
+        "identityName": "stshopdev318747",
+        "identityResourceId": "/subscriptions/cf6f45b2-c8d7-45d9-8296-b2f7be0ea733/resourceGroups/SpTokenApp20220127161813ResourceGroup/providers/Microsoft.ManagedIdentity/userAssignedIdentities/stshopdev318747",
+        "identityClientId": "55106985-b027-4efa-bd3e-47c32e045cf6"
+    },
+    "fx-resource-bot": {
+        "botId": "4a4e233d-8cb6-46d6-91e8-b32e8efb3d56",
+        "objectId": "bbc9620c-6f6f-4ed0-8833-17b923645bcc",
+        "skuName": "F1",
+        "siteName": "stshopdev318747bot",
+        "validDomain": "stshopdev318747bot.azurewebsites.net",
+        "appServicePlanName": "stshopdev318747bot",
+        "botWebAppResourceId": "/subscriptions/cf6f45b2-c8d7-45d9-8296-b2f7be0ea733/resourceGroups/SpTokenApp20220127161813ResourceGroup/providers/Microsoft.Web/sites/stshopdev318747bot",
+        "siteEndpoint": "https://stshopdev318747bot.azurewebsites.net",
+        "botPassword": "{{fx-resource-bot.botPassword}}"
+    },
+    "fx-resource-aad-app-for-teams": {
+        "clientId": "d6085d70-e6f6-4b44-8cfd-2405c7f3e70c",
+        "objectId": "57b46770-b9fb-48df-99c8-f42504c9e1e4",
+        "oauth2PermissionScopeId": "e29ed8dd-de9d-4a76-8fa5-ab92e1a7d21b",
+        "tenantId": "fcae5643-6183-4dcf-b1ab-156ab38738cb",
+        "oauthHost": "https://login.microsoftonline.com",
+        "oauthAuthority": "https://login.microsoftonline.com/fcae5643-6183-4dcf-b1ab-156ab38738cb",
+        "applicationIdUris": "api://botid-4a4e233d-8cb6-46d6-91e8-b32e8efb3d56",
+        "clientSecret": "{{fx-resource-aad-app-for-teams.clientSecret}}"
+    },
+    "fx-resource-appstudio": {
+        "teamsAppId": "d70a8964-692f-4a19-9568-1a49c27b6791",
+        "teamsAppUpdatedAt": 1644514633268
+    }
+}
